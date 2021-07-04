@@ -1,6 +1,5 @@
 /.metadata/
-
-### STS ###
+*.class
 .apt_generated
 .classpath
 .factorypath
