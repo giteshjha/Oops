@@ -14,7 +14,7 @@ public class EncapsulatedCar {
 		return price;
 	}
 	public void setPrice(float price) throws Exception {
-		if(price <= 0) {
+		if(price <= 1) {
 			throw new Exception("invalid price: "+ price);
 		}
 		this.price = price;
